@@ -16,5 +16,4 @@ class EquilateralTriangle(_name:String): Triangle(_name) {
     override fun getArea(): Double {
         return (sqrt(3.0)/4)*side.pow(2)
     }
-
 }

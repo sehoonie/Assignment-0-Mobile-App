@@ -16,8 +16,4 @@ class Circle(_name: String): Shape(_name) {
     override fun getArea(): Double {
         return PI * radius.pow(2)
     }
-
-
-
-
 }

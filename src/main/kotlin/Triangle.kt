@@ -22,5 +22,4 @@ open class Triangle(_name: String): Shape(_name){
         val s = (sideA + sideB + sideC)/2
         return sqrt((s*(s-sideA)*(s-sideB)*(s-sideC)))
     }
-
 }

@@ -53,6 +53,5 @@ fun main(){
 //    Printing out Equilateral Triangle information
     println(eqTriangle.name + " dimensions are")
     eqTriangle.printDimensions()
-    println("and the area is " + eqTriangle
-        .getArea())
+    println("and the area is " + eqTriangle.getArea())
 }

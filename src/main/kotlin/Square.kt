@@ -16,5 +16,4 @@ class Square(_name: String): Shape(_name) {
     override fun getArea(): Double {
         return length * height
     }
-
 }
